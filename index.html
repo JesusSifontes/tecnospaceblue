@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico ">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos-varios.css">
+
+    <title>Tecno Space Blue</title>
+</head>
+
+<body class="fs-6 bodypreloader" id="body" style="background-color:#F3F3F3; position:relative;padding-bottom: 3em; min-height: 100vh;">
+    <!-- #EFF5FB  position:relative; -->
+    <div class="container-fluid">
+
+
+        <div class="preloader" id="preloader">
+            <!--  Cargadno-->
+
+            <div class="spinner-grow text-warning" role="status">
+                <span class="visually-hidden "></span>
+            </div>
+
+            &nbsp;
+
+            <div class="spinner-grow text-primary" role="status">
+                <span class="visually-hidden "></span>
+            </div>
+
+            &nbsp;
+
+            <div class="spinner-grow text-danger" role="status">
+                <span class="visually-hidden "></span>
+            </div>
+
+        </div>
+
+
+        <nav class="py-1  navbar navbar-light fixed-top border border-dark border-top-0 border-end-0 border-start-0 border-1" style="background-color:#45AAF9; " id="nav_completo">
+            <!-- F8F2F1 -->
+
+            <div class="container-fluid">
+                <img src="logo.png" class="float-start rounded mx-0" width="50" height="50" alt="Logo Empresa" style="min-width:50">
+                <p class="display-6 m-0 p-0 col-xl-10 col-lg-10 col-md-9 col-sm-9 ">
+                    <a href="index.html" class=" py-0 px-0 m-0" style="text-decoration: none; color:#FFFFFF;" id="texto_nav" onmouseover="cambiarLetraNav();" onmouseout="letraNavPredeterminado();">
+          TecnoSpaceBlue
+        </a>
+                </p>
+                <button class="navbar-toggler bg-light m-0 p-0 py-1 px-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon m-0 p-0"></span>
+      </button>
+                <div class="offcanvas offcanvas-end text-bg-dark " style="background-color:#F3F3F3;" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="py-2 offcanvas-header border border-dark border-top-0 border-end-0 border-start-0 border-1" style="background-color:#45AAF9;" id="nav_nav">
+                        <p class="display-6 m-0 p-0">
+                            <a href="index.html" class="" style="text-decoration: none; color:#FFFFFF; " onmouseover="cambiarLetraNavNav();" onmouseout="letraNavPredeterminadoNav();" id="texto_nav_nav">
+              TecnoSpaceBlue 
+            </a>
+                        </p>
+                        <button type="button" class="btn-close btn-close-dark " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body ">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="btn btn-outline-warning text-dark col-12 fs-6 " href="telefonos.html">
+                                    <img src="icons-1.10.3/phone.svg" class="" width="25" height="25" alt="Telefonos" style="min-width:25"> Teléfonos
+                                </a>
+                            </li>
+                            <br>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-warning text-dark col-12 fs-6 " href="pc_gamer_escritorio.html">
+                                    <img src="icons-1.10.3/pc-display.svg" class="" width="25" height="25" alt="PC y Computadoras" style="min-width:25"> PC Gamer y Escritorio
+                                </a>
+                            </li>
+                            <br>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-primary col-12 fs-6" href="laptos.html">
+                                    <img src="icons-1.10.3/laptop.svg" class="" width="25" height="25" alt="Laptos" style="min-width:25"> Laptos
+                                </a>
+                            </li>
+                            <br>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-primary  col-12 fs-6" href="monitores.html">
+                                    <img src="icons-1.10.3/display.svg" class="" width="25" height="25" alt="Pantallas" style="min-width:25"> Pantalla Monitor
+                                </a>
+                            </li>
+                            <br>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-danger  col-12 fs-6" href="accesorios.html">
+                                    <img src="icons-1.10.3/keyboard.svg" class="" width="25" height="25" alt="Teclados" style="min-width:25"> Teclados,
+                                    <img src="icons-1.10.3/mouse2.svg" class="" width="20" height="20" alt="Mouses" style="min-width:25"> Mouse y
+                                    <img src="icons-1.10.3/router.svg" class="" width="25" height="25" alt="Router" style="min-width:25"> Router
+                                </a>
+                            </li>
+                            <br>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-danger  col-12 fs-6" href="televisores.html">
+                                    <img src="icons-1.10.3/tv.svg" class="" width="25" height="25" alt="TV" style="min-width:25">
+                                    <img src="icons-1.10.3/badge-hd.svg" class="" width="25" height="25" alt="TV Hd" style="min-width:25"> Televisores
+
+                                </a>
+                            </li>
+                            <br>
+                        </ul>
+
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="btn btn-outline-success  col-12 fs-6" href="iniciar_sesion.html">
+                                    <img src="icons-1.10.3/person-circle.svg" class="" width="25" height="25" alt="" style="min-width:25"> Iniciar Sesión</a>
+                            </li>
+                            <br>
+
+                            <li class="nav-item">
+                                <a class="btn btn-outline-success  col-12 fs-6" href="registro.html">
+                                    <img src="icons-1.10.3/person-vcard.svg" class="" width="25" height="25" alt="" style="min-width:25"> Registrase
+                                </a>
+                            </li>
+                            <br>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <br><br>
+
+        <div class=" w-100" align="center" style="background-color:#F4F4F4;">
+            <div id="carouselExampleIndicators" class="carousel slide  col-sm-12 col-md-10 col-lg-10 " data-bs-ride="carousel">
+
+
+
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active " style="max-height:40rem;">
+                        <img src="infinix/infinix_hot_12/infinix_hot_12.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0 ">Infinix Hot 12</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="infinix/infinix_zero_x_pro/infinix_zero_x_pro.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">Infinix Zero X Pro</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="xiaomi/redmi_note_11s/redmi_note_11s_completa.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">Xiaomi Redmi Note 11 S</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="xiaomi/redmi_11t/redmi_11t_completa.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">Xiaomi Redmi 11 T</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="iphone/iphone_14/iphone_14.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">Iphone 14</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="samsung/samsung_galaxy_s10/samsung_galaxy_s10.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">Samsung Galaxy s10</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="samsung/samsung_galaxy_zfold3/samsung_zfold3.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">Samsung Galaxy Z Fold 3 5G</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="tecno/tecno_camon/tecno_camon.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">Tecno Camon 18 P</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="tecno/tecno_spark_9_pro/tecno_spark_9_pro.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">Tecno Spark 9 Pro</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="gamer/pc1/pc1_completa.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">PC Gamer</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="gamer/pc3/pc3_completa.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">PC Gamer</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="siragon/siragon_s7100/siragon_s7100_completa.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">PC Sirgagon S7100</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="dell/dell_i7/dell_i7_completa.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">PC Dell i7</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="apple/macbook_m1_pro/macbook_m1_pro_completa.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">Laptop Macbook M1 Pro</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="hp/laptop_hp_16_omen/laptop_hp_16_omen_completa.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">Laptop Hp 16 Omen</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="lg/lg_ultragear/lg_ultragear_completa.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">Lg UltraGear 27"</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="lg/lg_ultrawide/lg_ultrawide_completa.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">Lg UltraWide 34"</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="samsung/monitor_samsung_22/monitor_samsung_22_completa.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">Samsung FHD 22"</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="samsung/monitor_samsung_24_curve/monitor_samsung_24_curve_completa.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">Samsung Curve FHD 24"</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="teclados/teclado_redragon/teclado_redragon_completa.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">Teclado Redragon Pro</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="mouse/mouse_razer/mouse_razer_completa.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">Mouse Razer</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="router/router_tplink/router_tplink_completa.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">Router TpLink 300Mbps</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="lg_smart/lg_smart_tv_50/lg_smart_tv_50_completa.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">Lg Smart Tv 50"</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="hisense/hisense_smart_tv_32/hesense_smart_tv_32_completa.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">Hisense Smart Tv 32"</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="max-height:40rem;">
+                        <img src="siragon/siragon_smart_tv_75/siragon_smart_tv_75_completa.png" class="d-block w-100" alt="...">
+                        <br>
+                        <div class="carousel-caption text-dark position-absolute bottom-0 ">
+                            <!--d-none d-xl-block d-lg-block d-md-block d-sm-block -->
+                            <h1 class="display-6 col-12 d-none d-xl-block d-lg-block d-md-block d-sm-block position-absolute bottom-0">Siragon Smart Tv 75"</h1>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon position-absolute top-50 end-50 translate-middle-y" aria-hidden="true"></span><!-- bg-primary border border-dark  border-1 rounded position-absolute top-50 end-50 translate-middle-y -->
+        <span class="visually-hidden">Previous</span>
+      </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon position-absolute top-50 start-50 translate-middle-y"  aria-hidden="true"></span> <!-- bg-primary border border-dark  border-1 rounded position-absolute top-50 start-50 translate-middle-y     style="background-color:#EFF5FB;"  -->
+        <span class="visually-hidden ">Next</span>
+      </button>
+            </div>
+            <hr>
+
+            <br>
+
+        </div>
+
+
+        <!--
+    <div>
+     
+      <div class="card col-5"><!--width: 18rem;
+      <img src="router/router_tplink/router_tplink_completa.png"   width="200" height="200"  class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    
+    </div>
+    -->
+        <div class="col-sm-6 col-md-12 col-lg-12 col-xl-12  mb-5" align="center">
+            <div class="card mb-3" align="center" style="max-width: 540px;">
+                <a class="" href="telefonos.html" id="b1" style="text-decoration: none; color:#000000;" onmouseover="a(1)" onmouseout="b(1)">
+                    <div class="row g-0" id="">
+                        <!--border border-2 border-danger-->
+                        <div class="col-md-4">
+                            <img src="iphone/iphone_14_plus/iphone_14_plus_negro_trasero_frontal.png" id="border_img_1" class="img-fluid rounded-start " alt="...">
+                        </div>
+                        <div class="col-md-8 align-self-center ">
+                            <div class="card-body">
+                                <h5 class="card-title display-6">Todo en Celulares</h5><br>
+                                <h5 class="card-title display-6  btn btn-outline-success col-4"><b>Ver Más</b></h5>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-12 col-lg-12 col-xl-12 mb-5" align="center">
+            <div class="card mb-3" align="center" id="b2" style="max-width: 540px;">
+                <a class="" href="pc_gamer_escritorio.html" style="text-decoration: none; color:#000000;" onmouseover="a(2)" onmouseout="b(2)">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="gamer/pc3/pc33.png" id="border_img_2" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 align-self-center">
+                            <div class="card-body">
+                                <h5 class="card-title display-6">Todo en PC Gamer y Escritorio</h5>
+                                <h5 class="card-title display-6  btn btn-outline-success col-4"><b>Ver Más</b></h5>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-12 col-lg-12 col-xl-12 mb-5" align="center">
+            <div class="card mb-3" align="center" id="b3" style="max-width: 540px;">
+                <a class="" href="laptos.html" style="text-decoration: none; color:#000000;" onmouseover="a(3)" onmouseout="b(3)">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="hp/laptop_hp_16_omen/laptop_hp_16_ome_frontal.png" id="border_img_3" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 align-self-center">
+                            <div class="card-body">
+                                <h5 class="card-title display-6">Todo en Laptos</h5><br>
+                                <h5 class="card-title display-6  btn btn-outline-success col-4"><b>Ver Más</b></h5>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-12 col-lg-12 col-xl-12 mb-5" align="center">
+            <div class="card mb-3" align="center" id="b4" style="max-width: 540px;">
+                <a class="" href="monitores.html" style="text-decoration: none; color:#000000;" onmouseover="a(4)" onmouseout="b(4)">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="samsung/monitor_samsung_24_curve/monitor_samsung_24_curve_frontal.jpg" id="border_img_4" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 align-self-center">
+                            <div class="card-body">
+                                <h5 class="card-title display-6">Todo en Pantalla Monitor</h5>
+                                <h5 class="card-title display-6  btn btn-outline-success col-4"><b>Ver Más</b></h5>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-12 col-lg-12 col-xl-12 mb-5" align="center">
+            <div class="card mb-3" align="center" id="b5" style="max-width: 540px;">
+                <a class="" href="accesorios.html" style="text-decoration: none; color:#000000;" onmouseover="a(5)" onmouseout="b(5)">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="mouse/mouse_razer/mouse_razer_frontal2.jpg" id="border_img_5" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 align-self-center">
+                            <div class="card-body">
+                                <h5 class="card-title display-6">Todo en Accesorios</h5><br>
+                                <h5 class="card-title display-6  btn btn-outline-success col-4"><b>Ver Más</b></h5>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-12 col-lg-12 col-xl-12 mb-5" align="center">
+            <div class="card mb-3" align="center" id="b6" style="max-width: 540px;">
+                <a class="" href="televisores.html" style="text-decoration: none; color:#000000;" onmouseover="a(6)" onmouseout="b(6)">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="hisense/hisense_smart_tv_32/hesense_smart_tv_32_frontal.png" id="border_img_6" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 align-self-center">
+                            <div class="card-body">
+                                <h5 class="card-title display-6">Todo en Televisores</h5><br>
+                                <h5 class="card-title display-6  btn btn-outline-success col-4"><b>Ver Más</b></h5>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="row justify-content-center ">
+            <!-- col-sm-6 col-md-4 col-lg-4 col-xl-4 -->
+            <div class="col-sm-6 col-md-5 col-lg-5 col-xl-5  mb-2">
+                <p class="display-6 text-center"><b> 
+          ¿ Quienes Somos ?</b>
+                </p>
+                <p class="card-text text-start">
+                    <b>TecnoSpaceBlue</b> es la cadena de tiendas de tecnología y electrodomésticos más grande de Venezuela, actualmente cuenta con 13 tiendas a nivel nacional.&nbsp;&nbsp;&nbsp; TecnoSpaceBlue es creada para traerte lo mejor del mundo
+                    de la tecnología a través de una insuperable experiencia de compra.
+                </p>
+            </div>
+            <div class="align-self-center col-sm-6 col-md-6 col-lg-6 col-xl-6  mb-5 " align="center">
+                <img src="logo.png" class="img-fluid border rounded-3" alt="Responsive image">
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+    <br><br>
+    <div class=" row border border-dark border-top-1 border-end-0 border-start-0 " style=" width: 100%; height: 60px; position:absolute; bottom: 0; background-color:#B7E6EF;">
+        <!-- position:absolute; bottom: 0; -->
+
+
+        <div class="text-center " style="background-color:#FFFFFF;">
+            <!--B7E6EF-->
+            <br>
+            <p class="p-0 m-0">
+                Tecno Space Blue C.A.
+
+            </p>
+            <p class="p-0 m-0">
+                RIF J-20009997-6.
+
+            </p>
+            <p class="p-0 m-0">
+                Av. Principal,Las Mercedes,Centro Comercial Tolón,Caracas.
+
+            </p>
+            <p class="p-0 m-0">
+
+                Copyright 2023 © Todos Los Derechos Reservados.
+
+            </p>
+            <br>
+
+            <div class="d-flex justify-content-around">
+                <div class="p-1 btn btn-outline-primary " data-toggle="tooltip" data-placement="top" title="Facebook Tecno Space Blue">
+                    <a href="" target="_blank">
+                        <img src="icons-1.10.3/facebook.svg" class="" width="50" height="50" alt="Facebook Tecno Space" style="min-width:30">
+                    </a>
+                </div>
+                <div class="p-1 btn btn-outline-danger" data-toggle="tooltip" data-placement="top" title="Instagram Tecno Space Blue">
+                    <a href="" target="_blank">
+                        <img src="icons-1.10.3/instagram.svg" class="" width="50" height="50" alt="Instagram Tecno Space" style="min-width:30">
+                    </a>
+                </div>
+                <div class="p-1 btn btn-outline-primary" data-toggle="tooltip" data-placement="top" title="Twitter Tecno Space Blue">
+                    <a href="" target="_blank">
+                        <img src="icons-1.10.3/twitter.svg" class="" width="50" height="50" alt="Twitter Tecno Space" style="min-width:30">
+                    </a>
+                </div>
+                <div class="p-1 btn btn-outline-danger" data-toggle="tooltip" data-placement="top" title="Youtube Tecno Space Blue">
+                    <a href="" target="_blank">
+                        <img src="icons-1.10.3/youtube.svg" class="" width="50" height="50" alt="Youtube Tecno Space" style="min-width:30">
+                    </a>
+                </div>
+                <div class="p-1 btn btn-outline-success" data-toggle="tooltip" data-placement="top" title="Whatsapp Tecno Space Blue">
+                    <a href="" target="_blank" rel="sdsds">
+                        <img src="icons-1.10.3/whatsapp.svg" class="" width="50" height="50" alt="Whatsapp Tecno Space" style="min-width:30">
+                    </a>
+                </div>
+
+
+            </div>
+            <br>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="a.js"></script>
+
+</body>
+
+</html>
