@@ -1,12 +1,4 @@
-const body=document.getElementById("body");
-var spiner=document.getElementById("preloader");
 
-        
-window.addEventListener("load",() =>{
-    body.classList.remove("bodypreloader");
-    spiner.classList.remove("preloader")
-    spiner.classList.add("ocultarpreloader");
-})
 
 function cambiarColor(opcion_color) {
     if (opcion_color == 1) {
